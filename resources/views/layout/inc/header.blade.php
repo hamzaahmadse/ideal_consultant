@@ -1,19 +1,19 @@
 <!-- Header Section Start -->
     <div class="header-section">
-        <!-- Header Top Start -->
-        <div class="header-top side-padding">
+        
+        <!-- <div class="header-top side-padding">
             <div class="container">
                 <div class="row">
 					<div class="col">
-                        <!-- Header Top Links Start -->
+                        
                         <div class="header-links">
                             <a href="#"><i class="fa fa-phone"></i>info@Idealconsultant.co.uk</a>
                             <a href="#">/</a>
                             <a href="#"><i class="fa fa-envelope"></i> 0161 349 2349</a>
-                        </div><!-- Header Top Links End -->
+                        </div>
                     </div>
                     <div class="col">
-                        <!-- Header Social Start -->
+                        
                         <div class="header-social">
                             <a href="#">Mon - Fri : 9am to 5pm </a>
                             <a href="#"> / </a>
@@ -22,11 +22,11 @@
                             <a href="#"><i class="fa fa-instagram"></i></a>
                             <a href="#"><i class="fa fa-pinterest-p"></i></a>
                             <a href="#"><i class="fa fa-google-plus"></i></a>
-                        </div><!-- Header Social End -->
+                        </div>
                     </div>
                 </div>
             </div>
-        </div><!-- Header Top End -->
+        </div> -->
        
         <!-- Header Bottom Start -->
         <div class="header-bottom header-sticky side-padding">
@@ -59,16 +59,19 @@
                                     <li class="{{ Route::is('contact') ? 'active' : '' }}">
                                         <a href="{{url('contact')}}">contact</a>
                                     </li>
+                                    <li class="{{ Route::is('contact') ? 'active' : '' }}">
+                                        <a href="{{url('contact')}}">GDPR</a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
                     </div><!-- Main Menu End -->
                     <!-- Header Button Start -->
-                    <div class="col">
+                    <!-- <div class="col">
                         <div class="header-button">
                             <a href="index.html#donation" class="btn btn-red">APOINTMENT</a>
                         </div>
-                    </div>
+                    </div> -->
 					<!-- Header Button End -->
                     <!-- Mobile Menu Start -->
                     <div class="mobile-menu d-block d-lg-none col"></div><!-- Mobile Menu End -->

@@ -11,6 +11,8 @@
 |
 */
 
+use Illuminate\Http\Request;
+
 Route::get('/', function () {
     return view('home');
 })->name('home');
@@ -22,3 +24,20 @@ Route::get('/services', function () {
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
+
+Route::get('/career', function () {
+    return view('career');
+})->name('career');
+
+
+Route::get('send-mail', function(Request $request){
+
+	$data = $request->file;
+	Mail::send('emails.default', [], function ($message) use($data){
+		$message->to('nuru7495@gmail.com');
+	    $message->attachData($data, 'Attachment');
+	});
+
+	return redirect()->back();
+	
+})->name('send-mail');
