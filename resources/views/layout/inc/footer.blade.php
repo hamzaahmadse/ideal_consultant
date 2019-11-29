@@ -34,14 +34,14 @@
     </div><!-- Footer Top Section End -->
 
     <!-- Footer Bottom Section Start -->
-    <div class="footer-bottom-section">
+    <!-- <div class="footer-bottom-section">
         <div class="container">
-            <div class="row">                
+            <div class="row"> -->                
                 <!-- Footer Copyright -->
-                <div class="footer-copyright text-center col-12">
+          <!--       <div class="footer-copyright text-center col-12">
                     <p>Copyright © All Right Reserved. Designed by <a href="http://seethelightco.com/">Seethelight</a></p>
                 </div>                
             </div>
         </div>
-    </div>
+    </div> -->
 	<!-- Footer Bottom Section End -->

@@ -184,7 +184,7 @@
                     <h2>We aim to provide real value for money.</h2>
                     <p>Our initial introductory meeting can be held in a location that is most convenient to you. During this meeting we will assess the accountancy services required, discuss and answer your questions.</p>
 					<p>If you prefer to spread the cost of your accountancy fees we offer a monthly payment plan which can help with the cash flow of your business.</p>
-					<h4>Emergency Call Only: <span>+0003456789</span></h4>                   
+					<!-- <h4>Emergency Call Only: <span>+0003456789</span></h4>                    -->
                 </div><!-- Mission Content End -->                
             </div>
         </div>
