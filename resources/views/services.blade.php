@@ -118,7 +118,7 @@
 						<!-- Content -->
 						<div class="content">
 							<h4><a href="service-details.html">Bank Reconciliation</a></h4>
-							<p>Content here ...</p>
+							<!-- <p>Content here ...</p> -->
 						</div>            
 					</div>
                 </div>
@@ -134,7 +134,7 @@
 						<!-- Content -->
 						<div class="content">
 							<h4><a href="service-details.html">Inheritance Tax</a></h4>
-							<p>Content here ....</p>
+							<!-- <p>Content here ....</p> -->
 						</div>            
 					</div>
                 </div>

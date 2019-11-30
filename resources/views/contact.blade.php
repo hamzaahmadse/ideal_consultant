@@ -55,8 +55,8 @@
                         <div class="contact-info text-center col-md-4 col-12 mb-30">
                             <h4>Phone:</h4>
                             <span></span>
-                            <p><a href="tel:"> 0161 349 2349</a></p>
-                            <p><a href="tel:">+99 858 574 565 45</a></p>
+                            <p><a href="tel:0044 161 8188894"> 0044 161 8188894</a></p>
+                            <!-- <p><a href="tel:">+99 858 574 565 45</a></p> -->
                         </div>
 						<!-- Contact Info Start -->
                         
@@ -64,8 +64,8 @@
                         <div class="contact-info text-center col-md-4 col-12 mb-30">
                             <h4>email:</h4>
                             <span></span>
-                            <p><a href="mailto:"> info@Idealconsultant.co.uk</a></p>
-                            <p><a href="mailto:">companyname@demo.com</a></p>
+                            <p><a href="mailto:info@Idealconsultant.co.uk"> info@Idealconsultant.co.uk</a></p>
+                            <!-- <p><a href="mailto:">companyname@demo.com</a></p> -->
                         </div>
 						<!-- Contact Info Start -->
                         

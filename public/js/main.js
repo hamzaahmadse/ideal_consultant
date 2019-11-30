@@ -233,10 +233,7 @@ if($('#world-vmap').length){
     }
     jQuery(document).ready(function () {
         var pins = {
-            cn: escapeXml('<div class="vmap-pin-text"><p>Floor. 4 House. 15, Block C, Banasree Main Rd, Dhaka</p></div><span class="vmap-pin"></span>'),
-            ca: escapeXml('<div class="vmap-pin-text"><p>Floor. 4 House. 15, Block C, Banasree Main Rd, Dhaka</p></div><span class="vmap-pin"></span>'),
-            au: escapeXml('<div class="vmap-pin-text"><p>Floor. 4 House. 15, Block C, Banasree Main Rd, Dhaka</p></div><span class="vmap-pin"></span>'),
-            br: escapeXml('<div class="vmap-pin-text"><p>Floor. 4 House. 15, Block C, Banasree Main Rd, Dhaka</p></div><span class="vmap-pin"></span>'),
+            gb: escapeXml('<div class="vmap-pin-text"><p>24 Midland Street, Manchester M12 6LB.</p></div><span class="vmap-pin"></span>'),
         };
         jQuery('#world-vmap').vectorMap({
             backgroundColor: 'transparent',
@@ -249,7 +246,7 @@ if($('#world-vmap').length){
             selectedColor: '#6f89a2',
             hoverColor: '#ef3345',
             showTooltip: true,
-            selectedRegions: ['CN', 'CA', 'AU', 'BR'],
+            selectedRegions: ['GB'],
             onRegionClick: function(element, code, region)
             {
                 var message = '<h4>'

@@ -88,54 +88,66 @@
                 <!-- Section Title Start -->
                 <div class="section-title text-center col-12 pb-50 pt-40">
                     <h1>Featured Services</h1>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <!-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p> -->
                 </div><!-- Section Title End -->
                 
                 <!-- Feature Start-->
                 <div class="col-lg-4 col-md-6 col-12"> 
-					<div class="feature text-center mb-30"> 
-						<!-- Icon -->
-						<div class="image">
-							<img src="{{asset('images/service/1.png')}}" alt="" />
-						</div>                   
-						<!-- Content -->
-						<div class="content">
-							<h4><a href="service-details.html">BUSINESS START-UP ADVICE</a></h4>
-							<p>There are many variations of passag Lorem Ipsum available, but the majority have sfered alteration in some form.</p>
-						</div>            
-					</div>
+                    <div class="feature text-center mb-30"> 
+                        <!-- Icon -->
+                        <div class="image">
+                            <img src="{{asset('images/service/1.png')}}" alt="" />
+                        </div>                   
+                        <!-- Content -->
+                        <div class="content">
+                            <h4><a href="service-details.html">Business Start-up Advice</a></h4>
+                            <p>We help people starting new business or forming a new company. We assist them in business planning; prepare projected financial statements, and contingent planning. We have good experience of banking industry & can help new entrepreneurs in opening business bank account and getting credit/finance facility from the bank.</p>
+                        </div>            
+                    </div>
                 </div>
 				<!-- Feature End-->
 				
 				<!-- Feature Start-->
                 <div class="col-lg-4 col-md-6 col-12"> 
-					<div class="feature text-center mb-30"> 
-						<!-- Icon -->
-						<div class="image">
-							<img src="{{asset('images/service/2.png')}}" alt="" />
-						</div>                   
-						<!-- Content -->
-						<div class="content">
-							<h4><a href="service-details.html">ACCOUNTANCY AND BOOK KEEPING</a></h4>
-							<p>There are many variations of passag Lorem Ipsum available, but the majority have sfered alteration in some form.</p>
-						</div>            
-					</div>
+                    <div class="feature text-center mb-30"> 
+                        <!-- Icon -->
+                        <div class="image">
+                            <img src="{{asset('images/service/2.png')}}" alt="" />
+                        </div>                   
+                        <!-- Content -->
+                        <div class="content">
+                            <h4><a href="service-details.html">Digital Marketing</a></h4>
+                            <p>As part of business support services, Ideal Financial also provides digital marketing services to its clients by making better online presence, and marketing through mobile and online resources. We provide following services under this segment:</p>
+                            <ul>
+                                <li>Social media marketing</li>
+                                <li>E-mail & mobile marketing</li>
+                                <li>Content writing</li>
+                            </ul>
+                        </div>            
+                    </div>
                 </div>
 				<!-- Feature End-->
 				
 				<!-- Feature Start-->
                 <div class="col-lg-4 col-md-6 col-12"> 
-					<div class="feature text-center mb-30"> 
-						<!-- Icon -->
-						<div class="image">
-							<img src="{{asset('images/service/3.png')}}" alt="" />
-						</div>                   
-						<!-- Content -->
-						<div class="content">
-							<h4><a href="service-details.html">DIGITAL MARKETING</a></h4>
-							<p>There are many variations of passag Lorem Ipsum available, but the majority have sfered alteration in some form.</p>
-						</div>            
-					</div>
+                    <div class="feature text-center mb-30"> 
+                        <!-- Icon -->
+                        <div class="image">
+                            <img src="{{asset('images/service/3.png')}}" alt="" />
+                        </div>                   
+                        <!-- Content -->
+                        <div class="content">
+                            <h4><a href="service-details.html">Accountancy and Book Keeping</a></h4>
+                            <p>Under this service we maintain books of accounts of our clients which are mostly small businesses. We process payroll for employees as well. Key tasks we perform are:
+                            </p>
+                            <ul>
+                                <li>Monthly Sales Invoicing posting</li>
+                                <li>Monthly Purchase and Expense Posting</li>
+                                <li>Calculation of payroll</li>
+                                <li>Generation of pay slips</li>
+                            </ul>
+                        </div>            
+                    </div>
                 </div>
 				<!-- Feature End-->
                 

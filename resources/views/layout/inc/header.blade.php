@@ -34,7 +34,7 @@
                 <div class="row"> 
                     <!-- Logo Start -->
                     <div class="col">
-                        <a href="index.html" class="logo"><img src="{{asset('images/ideal_consultant_logo_s.png')}}" alt="Logo"></a>
+                        <a href="{{route('home')}}" class="logo"><img src="{{asset('images/ideal_consultant_logo_s.png')}}" alt="Logo"></a>
                     </div><!-- Logo End -->
                     <!-- Main Menu Start -->
                     <div class="col d-none d-lg-block">
