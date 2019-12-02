@@ -163,7 +163,7 @@
                 <!-- Section Title Start -->
                 <div class="section-title title-white text-center col-12 mb-60">
                     <h1>Request a Call Back</h1>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <!-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p> -->
                 </div>
 				<!-- Section Title End -->                
                 <div class="col-12">                    
