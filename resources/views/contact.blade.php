@@ -8,20 +8,20 @@
     <div class="page-banner-section" style="background-image: url({{asset('images/bg/page-banner-bg.jpg')}}" data-overlay="theme-color" data-opacity="8">
         <div class="container">
             <div class="page-banner row align-items-center">
-                
+
                 <!-- Page Title -->
                 <div class="col-lg-6 col-12">
                     <h1 class="page-title">contact us</h1>
                 </div>
-                
+
                 <!-- Page Breadcrumb -->
                 <div class="col-lg-6 col-12">
                     <ul class="page-breadcrumb">
-                        <li><a href="#">home</a></li>
+                        <li><a href="{{url('/')}}">home</a></li>
                         <li class="active">contact us</li>
                     </ul>
                 </div>
-                
+
             </div>
         </div>
     </div>
@@ -30,17 +30,17 @@
     <!-- Contact Section Start -->
     <div class="contact-section pt-55 pb-100">
         <div class="container">
-            <div class="row">                
+            <div class="row">
                 <div class="col-lg-9 col-12 ml-auto mr-auto">
                     <div class="row">
-					
+
 						<!-- Section Title Start -->
 						<div class="section-title text-center col-12 pb-50 pt-40">
 							<h1>Get In Touch</h1>
 							<p>Ideal Financial Consultancy Limited is a limited company, registered under Companies Act, 2006 in Engalnd and Wales, Company Number is 09075725.</p>
 						</div>
 						<!-- Section Title End -->
-                        
+
                         <!-- Contact Info Start -->
                         <div class="contact-info text-center col-md-4 col-12 mb-30">
                             <h4>Address:</h4>
@@ -50,7 +50,7 @@
 								M12 6LB</p>
                         </div>
 						<!-- Contact Info Start -->
-                        
+
                         <!-- Contact Info Start -->
                         <div class="contact-info text-center col-md-4 col-12 mb-30">
                             <h4>Phone:</h4>
@@ -59,7 +59,7 @@
                             <!-- <p><a href="tel:">+99 858 574 565 45</a></p> -->
                         </div>
 						<!-- Contact Info Start -->
-                        
+
                         <!-- Contact Info Start -->
                         <div class="contact-info text-center col-md-4 col-12 mb-30">
                             <h4>email:</h4>
@@ -68,7 +68,7 @@
                             <!-- <p><a href="mailto:">companyname@demo.com</a></p> -->
                         </div>
 						<!-- Contact Info Start -->
-                        
+
                         <!-- Contact Form Start -->
                         <div class="col-12 mt-20">
                             <div class="contact-form">
@@ -84,15 +84,15 @@
                             </div>
                         </div>
 						<!-- Contact Form End -->
-                        
+
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
 	<!-- Contact Section End -->
-    
+
     <!-- Contact Map Start -->
     <div id="contact-map"></div>
 	<!-- Contact Map End -->

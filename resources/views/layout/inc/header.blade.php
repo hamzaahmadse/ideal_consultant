@@ -1,11 +1,11 @@
 <!-- Header Section Start -->
     <div class="header-section">
-        
+
         <!-- <div class="header-top side-padding">
             <div class="container">
                 <div class="row">
 					<div class="col">
-                        
+
                         <div class="header-links">
                             <a href="#"><i class="fa fa-phone"></i>info@Idealconsultant.co.uk</a>
                             <a href="#">/</a>
@@ -13,7 +13,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        
+
                         <div class="header-social">
                             <a href="#">Mon - Fri : 9am to 5pm </a>
                             <a href="#"> / </a>
@@ -27,11 +27,11 @@
                 </div>
             </div>
         </div> -->
-       
+
         <!-- Header Bottom Start -->
         <div class="header-bottom header-sticky side-padding">
             <div class="container">
-                <div class="row"> 
+                <div class="row">
                     <!-- Logo Start -->
                     <div class="col">
                         <a href="{{route('home')}}" class="logo"><img src="{{asset('images/ideal_consultant_logo_s.png')}}" alt="Logo"></a>
@@ -45,7 +45,10 @@
 									</li>
                                     <!-- <li><a href="about-us.html">about</a></li> -->
                                     <li class="{{ Route::is('services') ? 'active' : '' }}">
-                                        <a href="{{url('/services')}}">service</a>
+                                        <a href="{{url('/services')}}">services</a>
+                                    </li>
+                                    <li class="{{ Route::is('gdpr') ? 'active' : '' }}">
+                                        <a href="{{url('gdpr')}}">GDPR</a>
                                     </li>
                                     <li class="{{ Route::is('career') ? 'active' : '' }}">
                                         <a href="{{url('career')}}">career</a>
@@ -57,10 +60,7 @@
                                         </ul>
                                     </li> -->
                                     <li class="{{ Route::is('contact') ? 'active' : '' }}">
-                                        <a href="{{url('contact')}}">contact</a>
-                                    </li>
-                                    <li class="{{ Route::is('contact') ? 'active' : '' }}">
-                                        <a href="{{url('contact')}}">GDPR</a>
+                                        <a href="{{url('contact')}}">contact us</a>
                                     </li>
                                 </ul>
                             </nav>

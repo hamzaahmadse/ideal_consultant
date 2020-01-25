@@ -13,13 +13,10 @@
 
 use Illuminate\Http\Request;
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
+Route::get('/', 'HomeController@index')->name('home');
 
-Route::get('/services', function () {
-    return view('services');
-})->name('services');
+Route::get('/services', 'ServicesController@index')->name('services');
+Route::get('/service/{id}', 'ServicesController@service')->name('service-detail');
 
 Route::get('/contact', function () {
     return view('contact');
@@ -28,6 +25,10 @@ Route::get('/contact', function () {
 Route::get('/career', function () {
     return view('career');
 })->name('career');
+
+Route::get('/gdpr', function () {
+    return view('gdpr');
+})->name('gdpr');
 
 
 Route::get('send-mail', function(Request $request){
@@ -39,5 +40,5 @@ Route::get('send-mail', function(Request $request){
 	});
 
 	return redirect()->back();
-	
+
 })->name('send-mail');
