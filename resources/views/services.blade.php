@@ -11,7 +11,7 @@
 
                 <!-- Page Title -->
                 <div class="col-lg-6 col-12">
-                    <h1 class="page-title">Our Service</h1>
+                    <h1 class="page-title">Our Services</h1>
                 </div>
 
                 <!-- Page Breadcrumb -->

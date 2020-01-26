@@ -1,4 +1,4 @@
-var myCenter=new google.maps.LatLng(40.7065983,-74.0107104);
+var myCenter=new google.maps.LatLng(53.4745928,-2.2162075);
     function initialize()
     {
         var mapProp = {
@@ -12,7 +12,7 @@ var myCenter=new google.maps.LatLng(40.7065983,-74.0107104);
             position:myCenter,
             map: map,
         });
-	
+
         var styles = [
             {
                 "featureType": "water",
@@ -194,4 +194,3 @@ var myCenter=new google.maps.LatLng(40.7065983,-74.0107104);
     }
 google.maps.event.addDomListener(window, 'load', initialize);
 
-	

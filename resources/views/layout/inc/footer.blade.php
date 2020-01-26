@@ -13,18 +13,43 @@
                 <div class="footer-widget text-center col-lg-4 col-md-6 col-12 mb-40">
 
                     <h3 class="title">Contact <span>Us</span></h3>
-                    <ul class="contact-list text-center" style="padding-left: 28px;">
-                        <li><span>Phone:</span> <a href="tel:01613492349">0044 161 8188894</a></li>
-                        <li><span>Email:</span> <a href="#">info@Idealconsultant.co.uk</a></li>
-                        <li><span>Address:</span> 24 Midland Street <br>Manchester M12 6LB
-                        </li>
-                    </ul>
 
                 </div>
 				<!-- Footer Widget End -->
 
                 <!-- Footer Widget Start -->
                 <div class="footer-widget text-right col-lg-4 col-md-6 col-12 mb-40">
+
+                    <ul class="contact-list text-center">
+                        <li>
+                        <table>
+                            <tr>
+                                <td>Phone:</td>
+                                <td style="padding-left: 10px; text-align: left;">0044 161 8188894</td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td style="padding-left: 10px; text-align: left;">info@Idealconsultant.co.uk</td>
+                            </tr>
+                        </table>
+                        </li>
+                    </ul>
+
+                </div>
+				<!-- Footer Widget End -->
+
+                <div class="footer-widget text-right col-lg-4 col-md-6 col-12 mb-40">
+
+                    <ul class="contact-list text-center">
+                        <li>
+                            <table>
+                                <tr>
+                                    <td>Address:</td>
+                                    <td style="padding-left: 10px; text-align: left;">24 Midland Street Manchester M12 6LB</td>
+                                </tr>
+                            </table>
+                        </li>
+                    </ul>
 
                 </div>
 				<!-- Footer Widget End -->

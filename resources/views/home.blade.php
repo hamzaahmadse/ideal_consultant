@@ -18,7 +18,7 @@
 						   <div class="sub-title"><h3>Don’t Worry,</h3></div>
                            <div class="title"><h1>Our Expert Adviser</h1></div>
                            <div class="title-2"><h1>Always With You</h1></div>
-                           <div class="button"><a href="#" class="btn btn-lg btn-red">About More</a></div>
+                           <div class="button"><a href="{{route('services')}}" class="btn btn-lg btn-red">About More</a></div>
                         </div>
                         <!-- Hero Image -->
                         <div class="hero-image col-sm-4 col-md-4 col-lg-6">
@@ -37,7 +37,7 @@
 						   <div class="sub-title"><h3>Get your Business Advance</h3></div>
                            <div class="title"><h1>When it is time to Digitalized</h1></div>
 {{--                           <div class="title-2"><h1>When it is time to pay taxs</h1></div>--}}
-                           <div class="button"><a href="#" class="btn btn-lg btn-red">About More</a></div>
+                           <div class="button"><a href="{{route('services')}}" class="btn btn-lg btn-red">About More</a></div>
                         </div>
                         <!-- Hero Image -->
                         <div class="hero-image col-sm-4 col-md-4 col-lg-6">

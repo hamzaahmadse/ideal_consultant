@@ -5,10 +5,10 @@
     Version: 1.0
 
 -----------------------------------------------------------------------------------
-    
+
     CSS INDEX
     ===================
-	
+
     01. Theme default CSS
 	02. Header
         2.1 Header Top
@@ -39,7 +39,7 @@
     15. Footer
         15.1 Footer Top
         15.2 Footer Bottom
-	
+
 -----------------------------------------------------------------------------------*/
 /*----------------------------------------*/
 /*  01. Theme default CSS
@@ -124,7 +124,7 @@ ul {
   margin: 0;
   padding: 0; }
 
-/*-- 
+/*--
     - Common Classes
 -----------------------------------------*/
 .fix {
@@ -144,7 +144,7 @@ ul {
 @media only screen and (max-width: 479px) {
   .container {
     width: 320px; } }
-	
+
 .capitalize {
   text-transform: capitalize; }
 .uppercase {
@@ -154,7 +154,7 @@ ul {
   padding-left: 0;
   margin: 0; }
 
-/*-- 
+/*--
     - Background color
 -----------------------------------------*/
 .bg-white {
@@ -171,8 +171,8 @@ ul {
   background-color: #222222; }
 .bg-red {
   background-color: #1bbcaa; }
-  
-/*-- 
+
+/*--
     - Background color
 -----------------------------------------*/
 .bg-1 {
@@ -184,8 +184,8 @@ ul {
 .bg-3 {
   background: rgba(0, 0, 0, 0) url("../images/hero/s3.jpg") no-repeat scroll center center / cover ;
 }
-  
-/*-- 
+
+/*--
     - Text color
 -----------------------------------------*/
 .color-white {
@@ -203,7 +203,7 @@ ul {
 .color-red {
   color: #1bbcaa; }
 
-/*-- 
+/*--
     - Custom Row
 -----------------------------------------*/
 .row-10 {
@@ -213,7 +213,7 @@ ul {
     padding-left: 10px;
     padding-right: 10px; }
 
-/*-- 
+/*--
     - Margin & Padding
 -----------------------------------------*/
 /*-- Margin Top --*/
@@ -872,7 +872,7 @@ ul {
 .pr-200 {
   padding-right: 200px; }
 
-/*-- 
+/*--
     - Input Placeholder
 -----------------------------------------*/
 input:-moz-placeholder, textarea:-moz-placeholder {
@@ -961,8 +961,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     padding-left: 5px;
     padding-right: 5px; }
 
-/*-- 
-    Scroll Up 
+/*--
+    Scroll Up
 -----------------------------------------*/
 #scrollUp {
   width: 40px;
@@ -990,14 +990,14 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite; }
 
-/*-- 
+/*--
     - Main Wrapper
 -----------------------------------------*/
 .main-wrapper.header-transparent {
   padding: 0 !important;
   margin: 0 !important; }
 
-/*-- 
+/*--
     - Section Title
 -----------------------------------------*/
 .section-title {
@@ -1048,13 +1048,13 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     .section-title p {
       font-size: 14px;
       line-height: 24px; } }
-	  
+
 .section-title.title-white h1 {
   color: #ffffff; }
 .section-title.title-white p {
   color: #ffffff; }
 
-/*-- 
+/*--
     - Page Banner
 -----------------------------------------*/
 .page-banner-section {
@@ -1105,7 +1105,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .page-title {
       font-size: 38px;
-      line-height: 42px; } 
+      line-height: 42px; }
 	  .section-title h1 {
 		  font-size: 42px;
 		}
@@ -1117,7 +1117,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     .page-title {
 	  font-size: 38px;
 	  line-height: 36px;
-	} 
+	}
 	  .header-bottom {
 		  padding: 10px 0;
 		}
@@ -1128,7 +1128,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 	  line-height: 30px;
 	}
 	  }
-	  
+
 .page-breadcrumb {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1442,8 +1442,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   padding: 7px 0; }
   @media only screen and (max-width: 767px) {
     .header-top {
-      padding: 5px 0; } 
-	
+      padding: 5px 0; }
+
 	}
   .header-top > .container, .header-top > .container-fluid {
     position: relative; }
@@ -1872,7 +1872,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
       background-color: #ffffff; }
       .mobile-menu .mean-bar .mean-nav > ul {
 	  border: 1px solid #eeeeee;
-	  height: 289px;
+	  /*height: 289px;*/
 	  margin-bottom: 20px;
 	  overflow-y: scroll;
 	  width: 100%;
@@ -2179,7 +2179,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 		  padding-bottom: 20px;
 		  padding-top: 100px;
 		}
-		
+
 	}
     .hero-item .hero-content h3 {
 	  color: #ffffff;
@@ -2209,7 +2209,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 		} }
       @media only screen and (max-width: 767px) {
         .hero-item .hero-content .btn {
-          margin-top: 20px; } 
+          margin-top: 20px; }
 		  .hero-item {
 		  padding-top: 135px;
 		}
@@ -2389,7 +2389,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     .candidate-content p {
       font-size: 14px;
       line-height: 24px; } }
-	  
+
 .candidate-content img {
   font-size: 16px;
   margin-bottom: 0;
@@ -3313,7 +3313,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     .testimonial p {
       font-size: 16px;
       line-height: 26px; } }
-	  
+
 .testimonial h5 {
   font-size: 16px;
   font-weight: 600;
@@ -4187,8 +4187,8 @@ ul.cr-liststyle-1 li::before, ol.cr-liststyle-1 li::before {
   .mission-area-content h2 {
     padding-right: 0;
     font-size: 34px; } }
-	
-	
+
+
 /**
 	Video Area Styles
 */
@@ -4299,7 +4299,7 @@ a.video-popup-trigger {
 @media only screen and (max-width: 767px) {
   .video-box {
     padding-left: 0;
-    padding-right: 0; } 
+    padding-right: 0; }
 	.feature .image {
 	  padding-bottom: 25px;
 	}
@@ -4402,7 +4402,7 @@ a.video-popup-trigger {
     font-size: 42px; }
   .counter-area-inner [class^="col-"] .counter:after {
     display: none; } }
-	
+
 /* Team */
 .team-section {
   transform: translateY(-6%);
@@ -4567,7 +4567,7 @@ padding-right: 0; }
     height: 45px;
     opacity: 1;
     visibility: visible; }
-	
+
 
 /*=====  End of Our Expert people css  ======*/
 /*============================================
@@ -4960,8 +4960,8 @@ padding-right: 0; }
       height: 80%; }
     .wrapper.wrapper-boxed-layout .transparent-header {
       width: calc(100% - 140px);
-      left: 70px; } 
-	  
+      left: 70px; }
+
 	  }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .wrapper.wrapper-boxed-layout {
@@ -5028,7 +5028,7 @@ padding-right: 0; }
     .wrapper.wrapper-boxed-layout .counter-content h1 {
       font-size: 34px; }
     .wrapper.wrapper-boxed-layout .header-style-2 nav.menu .cr-megamenu-wrap {
-      width: 139%; } 
+      width: 139%; }
 	.wrapper.wrapper-boxed-layout .side-padding {
 	  padding-left: 55px;
 	  padding-right: 55px;
@@ -5101,7 +5101,7 @@ padding-right: 0; }
 	}
     .wrapper.wrapper-boxed-layout .transparent-header {
       width: calc(100%);
-      left: 0; } 
+      left: 0; }
 	  .header-button {
 		  display: none;
 		}
@@ -5218,7 +5218,7 @@ padding-right: 0; }
 	}
     .wrapper.wrapper-boxed-layout .transparent-header {
       width: calc(100%);
-      left: 0; } 
+      left: 0; }
 	  .team-section {
 	  padding-bottom: 100px;
 	  padding-top: 60px;
