@@ -25,6 +25,8 @@ class HomeController extends Controller
         ]);
 
 
-        Mail::to('hamza.ahmad0932@gmail.com')->send(new RequestCallbackMail($request->all()));
+        Mail::to('arslan@idealconsultancy.co.uk')->send(new RequestCallbackMail($request->all()));
+
+        return redirect()->back()->with('success', 'Callback request send successfully.');
     }
 }

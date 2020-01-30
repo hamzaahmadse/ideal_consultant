@@ -38,17 +38,17 @@ Route::post('send-mail', function(Request $request){
 	$request->validate([
         'file' => 'required|mimes:pdf,docx,jpg,png'
 	]);
-	
-	$data = $request->file; 
+
+	$data = $request->file;
 
 	Mail::send('emails.default', [], function ($message) use($data){
-		$message->to('muzammalikram781@gmail.com');
-		$message->subject("User Uploaded a File.");
+		$message->to('arslan@idealconsultancy.co.uk');
+		$message->subject("User Uploaded a CV.");
 		$message->attach($data->getRealPath(), [
-			'as' => $data->getClientOriginalName(), 
+			'as' => $data->getClientOriginalName(),
 			'mime' => $data->getMimeType()
-		 ]); 
-	}); 
-	return redirect()->back()->with('success', 'You File Has Been Uploaded.');
+		 ]);
+	});
+	return redirect()->back()->with('success', 'You CV has been Uploaded.');
 
 })->name('send-mail');
