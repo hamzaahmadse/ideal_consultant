@@ -33,14 +33,22 @@ Route::get('/gdpr', function () {
 
 Route::post('/request-callback', 'HomeController@requestCallback')->name('request_callback');
 
-Route::get('send-mail', function(Request $request){
+Route::post('send-mail', function(Request $request){
 
-	$data = $request->file;
+	$request->validate([
+        'file' => 'required|mimes:pdf,docx,jpg,png'
+	]);
+	
+	$data = $request->file; 
+
 	Mail::send('emails.default', [], function ($message) use($data){
-		$message->to('nuru7495@gmail.com');
-	    $message->attachData($data, 'Attachment');
-	});
-
-	return redirect()->back();
+		$message->to('muzammalikram781@gmail.com');
+		$message->subject("User Uploaded a File.");
+		$message->attach($data->getRealPath(), [
+			'as' => $data->getClientOriginalName(), 
+			'mime' => $data->getMimeType()
+		 ]); 
+	}); 
+	return redirect()->back()->with('success', 'You File Has Been Uploaded.');
 
 })->name('send-mail');

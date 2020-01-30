@@ -42,10 +42,32 @@
                     </div>
                 </div>
 				<!-- Candidate Content End -->
-
+              
                 <!-- Candidate Content Start -->
-                <div class="candidate-video col-lg-6 col-12 mb-30">
-                	<form action="{{route('send-mail')}}" method="GET" enctype="multipart/form-data">
+                <div class="candidate-video col-lg-6 col-12 mb-30">  
+                @if (session('error'))
+                    <div class="alert alert-danger" role="alert">
+                        {{ session('error') }}
+                    </div>
+                @endif
+                 @if (session('success'))
+                    <div class="container-fluid">
+                        <div class="alert alert-success" role="alert">
+                            {{ session('success') }}
+                        </div>
+                    </div>
+                @endif
+                  @if(count($errors))
+                    <div class="col-12">
+                        <ul class="alert alert-danger ">
+                            @foreach($errors->all() as $error)
+                                <li class="ml-4">{{$error}}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
+                	<form action="{{route('send-mail')}}" method="POST" enctype="multipart/form-data">
+                        @csrf
 						 <input type="file" name="file">
 						 <input type="submit" name="" value="send">
 						 <br>
