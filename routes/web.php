@@ -31,6 +31,8 @@ Route::get('/gdpr', function () {
 })->name('gdpr');
 
 
+Route::post('/request-callback', 'HomeController@requestCallback')->name('request_callback');
+
 Route::get('send-mail', function(Request $request){
 
 	$data = $request->file;

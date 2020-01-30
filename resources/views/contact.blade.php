@@ -45,9 +45,7 @@
                         <div class="contact-info text-center col-md-4 col-12 mb-30">
                             <h4>Address:</h4>
                             <span></span>
-                            <p>H24 Midland Street
-								Manchester
-								M12 6LB</p>
+                            <p>24 Midland Street <br> Manchester M12 6LB</p>
                         </div>
 						<!-- Contact Info Start -->
 
@@ -55,7 +53,7 @@
                         <div class="contact-info text-center col-md-4 col-12 mb-30">
                             <h4>Phone:</h4>
                             <span></span>
-                            <p><a href="tel:0044 161 8188894"> 0044 161 8188894</a></p>
+                            <p><a href="tel:0044 161 8188894"> +44 161 8188894</a></p>
                             <!-- <p><a href="tel:">+99 858 574 565 45</a></p> -->
                         </div>
 						<!-- Contact Info Start -->

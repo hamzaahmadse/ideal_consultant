@@ -18,7 +18,7 @@
                 <div class="col-lg-6 col-12">
                     <ul class="page-breadcrumb">
                         <li><a href="{{url('/')}}">home</a></li>
-                        <li class="active">service</li>
+                        <li class="active">services</li>
                     </ul>
                 </div>
 

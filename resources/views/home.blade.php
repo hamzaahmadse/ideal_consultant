@@ -133,11 +133,21 @@
 				<!-- Section Title End -->
                 <div class="col-12">
                     <!-- Donation Form Start -->
-                    <form action="#">
+                    <form action="{{route('request_callback')}}" method="post">
                         <div class="donation-form row">
-                            <div class="col-lg-3 col-md-6 col-12 mb-30"><input type="text" placeholder="Name *"></div>
-                            <div class="col-lg-3 col-md-6 col-12 mb-30"><input type="email" placeholder="E-Mail *"></div>
-                            <div class="col-lg-3 col-md-6 col-12 mb-30"><input type="text" placeholder="Phone *"></div>
+                            @csrf
+                            <div class="col-lg-3 col-md-6 col-12 mb-30">
+                                <input type="text" name="name" placeholder="Name *" value="{{old('name')}}">
+                                <div>{{$errors->first('name')}}</div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12 mb-30">
+                                <input type="email" name="email" placeholder="E-Mail *" value="{{old('email')}}">
+                                <div>{{$errors->first('email')}}</div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12 mb-30">
+                                <input type="text" name="phone" placeholder="Phone *" value="{{old('phone')}}">
+                                <div>{{$errors->first('phone')}}</div>
+                            </div>
                             <div class="col-lg-3 col-md-6 col-12 mb-30"><button class="btn btn-red btn-hover-dark-red">Submit Now</button></div>
                         </div>
                     </form><!-- Donation Form End -->

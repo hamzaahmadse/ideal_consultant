@@ -25,7 +25,7 @@
                         <table>
                             <tr>
                                 <td>Phone:</td>
-                                <td style="padding-left: 10px; text-align: left;">0044 161 8188894</td>
+                                <td style="padding-left: 10px; text-align: left;">+44 161 8188894</td>
                             </tr>
                             <tr>
                                 <td>Email:</td>
@@ -45,7 +45,7 @@
                             <table>
                                 <tr>
                                     <td>Address:</td>
-                                    <td style="padding-left: 10px; text-align: left;">24 Midland Street Manchester M12 6LB</td>
+                                    <td style="padding-left: 10px; text-align: left;">24 Midland Street<br> Manchester M12 6LB</td>
                                 </tr>
                             </table>
                         </li>
