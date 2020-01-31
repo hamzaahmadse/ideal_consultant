@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class RequestCallbackMail extends Mailable
+class ContactUsMail extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -21,6 +21,7 @@ class RequestCallbackMail extends Mailable
     public function __construct($data)
     {
         //
+
         $this->data = $data;
     }
 
@@ -31,6 +32,6 @@ class RequestCallbackMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Request a callback')->markdown('emails.request-callback');
+        return $this->subject('Message received from Ideal consultant')->markdown('emails.contact-us');
     }
 }

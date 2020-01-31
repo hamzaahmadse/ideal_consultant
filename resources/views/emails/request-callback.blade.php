@@ -1,12 +1,15 @@
 @component('mail::message')
-# Introduction
+# Callback request received
 
-The body of your message.
+{{--@component('mail::button', ['url' => ''])--}}
+{{--Button Text--}}
+{{--@endcomponent--}}
 
-@component('mail::button', ['url' => ''])
-Button Text
+@component('mail::table')
+| Name          | Email         | Phone    |
+| ------------- |:-------------:| --------:|
+| {{$data['name']}} | {{$data['email']}}      | {{$data['phone']}}    |
 @endcomponent
-
 Thanks,<br>
 {{ config('app.name') }}
 @endcomponent

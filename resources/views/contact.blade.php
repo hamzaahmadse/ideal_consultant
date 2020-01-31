@@ -70,11 +70,21 @@
                         <!-- Contact Form Start -->
                         <div class="col-12 mt-20">
                             <div class="contact-form">
-                                <form id="contact-form" action="https://demo.hasthemes.com/korki-v5/korki-v5/assets/mail.php" method="post">
+                                <form id="contact-form" action="{{route('contact_us_mail')}}" method="POST">
+                                    @csrf
                                     <div class="row row-5">
-                                        <div class="col-md-6 col-12 mb-20"><input type="text" name="name" placeholder="Name"></div>
-                                        <div class="col-md-6 col-12 mb-20"><input type="email" name="email" placeholder="Email"></div>
-                                        <div class="col-12 mb-20"><textarea name="message" placeholder="Message"></textarea></div>
+                                        <div class="col-md-6 col-12 mb-20">
+                                            <input type="text" name="name" placeholder="Name">
+                                            <div>{{$errors->first('name')}}</div>
+                                        </div>
+                                        <div class="col-md-6 col-12 mb-20">
+                                            <input type="email" name="email" placeholder="Email">
+                                            <div>{{$errors->first('email')}}</div>
+                                        </div>
+                                        <div class="col-12 mb-20">
+                                            <textarea name="message" placeholder="Message"></textarea>
+                                            <div>{{$errors->first('message')}}</div>
+                                        </div>
                                         <div class="col-12"><input type="submit" value="send message"></div>
                                     </div>
                                 </form>

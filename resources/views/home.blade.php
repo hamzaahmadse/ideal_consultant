@@ -80,7 +80,7 @@
 				</div>
 				<div class="col-md-12 col-lg-5 col-sm-12">
 					<div class="mission-area-thumb">
-						<img class="wow fadeInRight" src="{{asset('images/about/about.png')}}" alt="mission area thumb">
+						<img class="wow fadeInRight" src="{{asset('images/hero/about01.jpg')}}" alt="mission area thumb">
 					</div>
 				</div>
 			</div>
@@ -151,6 +151,28 @@
                             <div class="col-lg-3 col-md-6 col-12 mb-30"><button class="btn btn-red btn-hover-dark-red">Submit Now</button></div>
                         </div>
                     </form><!-- Donation Form End -->
+
+                    @if (session('error'))
+                        <div class="alert alert-danger" role="alert">
+                            {{ session('error') }}
+                        </div>
+                    @endif
+                    @if (session('success'))
+                        <div class="container-fluid">
+                            <div class="alert alert-success" role="alert">
+                                {{ session('success') }}
+                            </div>
+                        </div>
+                    @endif
+                    @if(count($errors))
+                        <div class="col-12">
+                            <ul class="alert alert-danger ">
+                                @foreach($errors->all() as $error)
+                                    <li class="ml-4">{{$error}}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
                 </div>
             </div>
         </div>

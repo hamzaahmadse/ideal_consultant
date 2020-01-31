@@ -32,6 +32,7 @@ Route::get('/gdpr', function () {
 
 
 Route::post('/request-callback', 'HomeController@requestCallback')->name('request_callback');
+Route::post('/contact-us-mail', 'HomeController@contactUsMail')->name('contact_us_mail');
 
 Route::post('send-mail', function(Request $request){
 
