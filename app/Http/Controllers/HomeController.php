@@ -26,7 +26,7 @@ class HomeController extends Controller
         ]);
 
 //arslan@idealconsultancy.co.uk
-        Mail::to('arslan@idealconsultancy.co.uk')->send(new RequestCallbackMail($request->all()));
+        Mail::to(env('HOST_EMAIL'))->send(new RequestCallbackMail($request->all()));
 
         return redirect()->back()->with('success', 'Callback request send successfully.');
     }
@@ -40,7 +40,7 @@ class HomeController extends Controller
         ]);
 
 //arslan@idealconsultancy.co.uk
-        Mail::to('arslan@idealconsultancy.co.uk')->send(new ContactUsMail($request->all()));
+        Mail::to(env('HOST_EMAIL'))->send(new ContactUsMail($request->all()));
 
         return 'Message delivered successfully.';
     }

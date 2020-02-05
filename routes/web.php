@@ -43,7 +43,7 @@ Route::post('send-mail', function(Request $request){
 	$data = $request->file;
 
 	Mail::send('emails.default', [], function ($message) use($data){
-		$message->to('arslan@idealconsultancy.co.uk');
+		$message->to(env('HOST_EMAIL'));
 		$message->subject("User Uploaded a CV.");
 		$message->attach($data->getRealPath(), [
 			'as' => $data->getClientOriginalName(),
